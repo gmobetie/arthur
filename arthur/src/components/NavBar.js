@@ -6,7 +6,6 @@ import Marteau from "../assets/svg/Marteau.svg";
 import Profil from "../assets/svg/Profil.svg";
 
 function NavBar() {
-  const activeTab = 1; //active tab number (1, 2, or 3)
 
   return (
     <>

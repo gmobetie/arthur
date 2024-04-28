@@ -9,7 +9,6 @@ import {
 } from "../services/spotify";
 
 function ProfilDiv() {
-  const [userId, setUserId] = useState("");
   const [mail, setMail] = useState("");
   const [popularity, setPopularity] = useState();
   const [leastPopularTracks, setLeastPopularTracks] = useState([]);
@@ -18,9 +17,7 @@ function ProfilDiv() {
   useEffect(() => {
     // Charger les données de l'utilisateur
     getUserData().then((user) => {
-      const id = user.id;
       const mail = user.email;
-      setUserId(id);
       setMail(mail);
     });
 

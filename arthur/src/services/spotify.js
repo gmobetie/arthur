@@ -371,11 +371,3 @@ export async function getRecommendationsFromPlaylist(playlistId) {
 
   return recommendations;
 }
-
-// Test fonction to be sure that the request work (it does)
-async function getRecommendations(trackIds) {
-  return await fetchWebApi(
-    `v1/recommendations?seed_tracks=${trackIds.join(",")}&limit=1`,
-    "GET"
-  ).tracks;
-}

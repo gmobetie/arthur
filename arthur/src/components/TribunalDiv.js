@@ -9,8 +9,6 @@ import {
 
 function TribunalDiv() {
 
-  const [activeButton, setActiveButton] = useState(null);
-
   const handleButtonClick = (playlistId) => {
     setPlaylistId(playlistId);
   };
