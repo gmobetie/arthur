@@ -7,7 +7,6 @@ import {
   isLogged,
   loginSpotify,
   logoutSpotify,
-  refreshSpotify,
 } from "../services/spotify";
 
 function LoginDiv() {

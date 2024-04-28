@@ -42,4 +42,4 @@ Voici les étapes que nous avons suivis pour déployer l'application
 8. Vous pouvez personnaliser davantage les paramètres de déploiement dans les options Netlify, tels que les variables d'environnement, les redirections, etc.
 9. Pour déployer de nouvelles versions de votre site, il vous suffit de pousser vos modifications vers la branche sélectionnée lors de la configuration du déploiement.
 
-Le lien de l'application déployée est
+Le lien de l'application déployée est https://arthurtrial.netlify.app/

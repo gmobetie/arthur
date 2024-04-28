@@ -2,10 +2,6 @@ import NavBar from "../components/NavBar";
 import TribunalDiv from "../components/TribunalDiv";
 import {
   getUserData,
-  getUserPlaylists,
-  getAveragePopularityOfAPlaylist,
-  getPlaylistTracks,
-  getRecommendationsFromPlaylist,
 } from "../services/spotify";
 import { useEffect, useState } from "react";
 //console.log(getRecommendationsFromPlaylist("2WA9b5x8Bey6iS2YpM5CGO"));
