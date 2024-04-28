@@ -1,0 +1,121 @@
+
+.TrialDiv {
+  color: #FFF;
+  text-align: center;
+  font-family: Asap, sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 70%;
+  height: 5%;
+  z-index: 3;
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.SubmitText {
+  color: #FFF;
+  text-align: start;
+  font-family: Asap, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 70%; /* Augmentez la largeur à 70% */
+  height: 10%;
+  z-index: 3;
+  position: absolute;
+  top: 11%;
+  left: 10%;
+}
+
+
+.PreviewPlaylist{
+  border-radius: 15px;
+  background: #445347;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 80%;
+  height: 35%;
+  position: absolute;
+  top: 19%;
+  left: 10%;
+}
+
+.ArthurShoe{
+  width: 100%;
+  height: 100%;
+  background: url('../assets/png/arthurshoe.png') no-repeat bottom right;
+  background-size: contain;
+  z-index:2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.BlackCoverDiv {
+  background: #000;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  width: 180%; /* Double de la largeur pour afficher le texte sur une longueur plus grande */
+  height: 21%;
+  margin-top: 10%;
+  margin-left: 10%; /* Décalage vers la droite */
+}
+
+
+.CoverContainer{
+  width:30%;
+  height: 100%;
+  z-index:3;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.PlaylistContainer{ 
+  margin: auto;
+  height: 35%;
+  width: 80%;
+  overflow: auto;
+  position:absolute;
+  top:55%;
+  left: 10%;
+}
+
+.PlaylistDiv{
+  margin:0;
+  padding:0;
+}
+
+.PlaylistItem {
+  height: 50px;
+  border-radius: 30px;
+  background: #445347; 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #FFF;
+  text-align: center;
+  font-family: Asap, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PlaylistItem.active {
+  border: 2px solid white;
+  background-color: #55786a;
+}
+
+
+
+
