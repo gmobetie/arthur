@@ -1,6 +1,6 @@
 // Parameters
 const clientId = "f580b800c2a24659b4cdbfddaa4b6726"; // your clientId
-const redirectUrl = "https://arthurtrial.netlify.app/"; // your redirect URL - must be localhost URL and/or HTTPS
+const redirectUrl = "http://localhost:3000"; // your redirect URL - must be localhost URL and/or HTTPS
 const authorizationEndpoint = "https://accounts.spotify.com/authorize";
 const tokenEndpoint = "https://accounts.spotify.com/api/token";
 const scope = "user-read-private user-read-email user-top-read";
