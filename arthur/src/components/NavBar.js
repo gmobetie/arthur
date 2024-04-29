@@ -11,7 +11,7 @@ function NavBar() {
     <>
       <nav className="NavBar">
         <div className="ButtonContainer">
-          <Link className="NavBarButton" to="/">
+          <Link className="NavBarButton" to="arthur/">
             <img
               src={Login}
               alt="Login"
@@ -21,7 +21,7 @@ function NavBar() {
           </Link>
         </div>
         <div className="ButtonContainer">
-          <Link className="NavBarButton" to="/tribunal">
+          <Link className="NavBarButton" to="arthur/tribunal">
             <img
               src={Marteau}
               alt="Trial"
@@ -31,7 +31,7 @@ function NavBar() {
           </Link>
         </div>
         <div className="ButtonContainer">
-          <Link className="NavBarButton" to="/profil">
+          <Link className="NavBarButton" to="arthur/profil">
             <img
               src={Profil}
               alt="Profil"
